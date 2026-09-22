@@ -1,0 +1,24 @@
+v9.30:
+- added new "Rarer Events" epic upgrade
+- added 5 new common spinners
+- rainbow spinners growth thresholds has been lowered:
+-- base threshold (100,000,000): 5% -> 4%
+-- at 1 quintillion: 4.25% -> 3%
+-- at 1 undecillion+: 3.5% -> 2%
+- epic spinners' % increase per 1,000 gems was increased from 3% to 5%
+- added one new rainbow spinner-related achievement and lowered the threshold on the 3rd rainbow spinner achievement
+- fixed a bug that caused dropping a spinner mid-drag to incorrectly relocate itself to another slot
+- fixed an issue that caused certain active events to become cancelled while an upgrade was purchased
+- fixed the offline production screen being out of place while waking up in mobile versions
+- fixed a crash that could occur in mobile versions when attempting to watch an ad
+
+v9.25:
+- initial release of "Spinner Evo Modded"
+- rainbow spinner growth formula reworked:
+-- before: after 100,000,000, grows cumulatively but multiplies by 1.02 in addition
+-- after: after 100,000,000, grows exponentially by 5% and has a tiered threshold system:
+--- at 1 quintillion or above, growth for next rainbow spinner reduces to 4.25%
+--- at 1 undecillion or above, growth for next rainbow spinner reduces to 3.5%
+- enabled the unused "Fusion Skip" epic upgrade
+- epic spinners' % increase per 1,000 gems was boosted from 1% to 3% and now compounds its bonus with other active epic spinners
+- added new achievements system in the booster menu; you can earn rewards while finishing specific tasks in-game
